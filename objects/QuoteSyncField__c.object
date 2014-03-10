@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Map custom quote fields that sync with opportunity fields</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>OppSyncField__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Opportunity field that sync with  quote ffield</description>
+        <externalId>false</externalId>
+        <label>Opportunity Sync Field</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Quote Sync Fields</label>
+</CustomObject>
